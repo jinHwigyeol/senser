@@ -1,10 +1,9 @@
 <HTML>
-    <BODY>
-    <H2> LED Control </H2>
-    <FORM id="control_page" action="cgi-bin/pycgi_led.py" method="GET">
-     LED ON <input type="submit" name="action" id="led_on" value="on"/> <br>
-     LED OFF <input type="submit" name="action" id="led_off" value="off"/> 
-    <br>
-    </FORM>
-    </BODY>
-    </HTML>
+<BODY>
+<H2> LED Control </H2>
+<FORM id="control_page" action="/flask_led" method="GET">
+ LED ON <input type="submit" name="action" id="led_on" value="on"/> <br>
+ LED OFF <input type="submit" name="action" id="led_off" value="off"/> <br>
+</FORM>
+</BODY>
+</HTML>
